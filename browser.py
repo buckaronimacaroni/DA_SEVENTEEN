@@ -1,5 +1,5 @@
 import requests
-url = 'http://172.18.58.80/index.php'
+url = 'http://172.18.58.80/multi/'
 r = requests.get(url)
 print(r.text)
 
